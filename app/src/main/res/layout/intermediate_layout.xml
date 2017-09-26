@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/home"
+
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        android:background="#cc0000"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/teacher"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="Teacher"
+        android:textSize="20dp"
+        android:background="#cc0000"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/home"
+        android:layout_alignStart="@+id/home" />
+</RelativeLayout>
